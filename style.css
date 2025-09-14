@@ -43,9 +43,8 @@ body {
 
 h1 {
   font-size: var(--font-h1);
-  /* color: var(--hero-text-color); */
   font-weight: var(--font-weight-bold);
-  line-height: var(--letter-spacing-tight);
+  line-height: var(--line-height-tight);
   letter-spacing: var(--letter-spacing-tight);
 }
 
@@ -54,3 +53,73 @@ h2 {font-size: var(--font-h2);}
 h3 {font-size: var(--font-h3);}
 
 p, a {font-size: var(--font-base);}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: var(--font-weight-bold);
+}
+
+ul {list-style: none;}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* ---------- COMPONENTS ---------- */
+.btn {
+  padding: 0.3rem 1.5rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn-fill {
+  background: var(--button-color);
+}
+
+/* -------------------- SECTIONS -------------------- */
+/* ---------- HEADER (HERO + NAVBAR) ---------- */
+header {
+  background: var(--dark-bg);
+  color: var(--hero-text-color);
+}
+
+/* ----- NAVBAR ----- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar p {font-weight: var(--font-weight-bold);}
+
+
+/* ----- HERO ----- */
+.hero {
+  display: flex;
+  gap: 1rem;
+  padding-block: 4rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.box {
+  background: var(--secondary-text-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
