@@ -1,0 +1,27 @@
+:root {
+  /* FONT SIZES */
+  --font-h1: 4rem;
+  --font-h2: 3rem;
+  --font-h3: 2.25rem;
+  --font-base: 1rem;
+
+  /* FONT FAMILY */
+  --font-family: 'Roboto', sans-serif;
+
+  /* FONT WEIGHT */
+  --font-weight-bold: 900;
+  --font-weight-light: 300;
+
+  /* COLOR */
+  --dark-bg: #1F2937;
+  --hero-text-color: #F9FAF8;
+  --secondary-text-color: #E5E7EB;
+  --button-color: #3882f6;
+
+  /* LINE HEIGHT */
+  --line-height-tight: 1.1;
+  --line-height-spaced: 1.5;
+
+  /* LETTER SPACING */
+  --letter-spacing-tight: -2px;
+}
