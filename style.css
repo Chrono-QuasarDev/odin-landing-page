@@ -1,8 +1,10 @@
+/* -------------------- GENERAL STYLES -------------------- */
+
 :root {
   /* FONT SIZES */
-  --font-h1: 4rem;
-  --font-h2: 3rem;
-  --font-h3: 2.25rem;
+  --font-h1: 3rem;
+  --font-h2: 2.25rem;
+  --font-h3: 2rem;
   --font-base: 1rem;
 
   /* FONT FAMILY */
@@ -25,3 +27,30 @@
   /* LETTER SPACING */
   --letter-spacing-tight: -2px;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: var(--font-base);
+  font-family: var(--font-family);
+  line-height: var(--line-height-spaced);
+}
+
+h1 {
+  font-size: var(--font-h1);
+  /* color: var(--hero-text-color); */
+  font-weight: var(--font-weight-bold);
+  line-height: var(--letter-spacing-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+h2 {font-size: var(--font-h2);}
+
+h3 {font-size: var(--font-h3);}
+
+p, a {font-size: var(--font-base);}
