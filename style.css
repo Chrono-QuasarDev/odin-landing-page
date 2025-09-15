@@ -217,3 +217,12 @@ header {
   flex: 1;
   text-align: center;
 }
+
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: var(--dark-bg);
+  color: var(--hero-text-color);
+  text-align: center;
+  padding: 2rem 0;
+}
