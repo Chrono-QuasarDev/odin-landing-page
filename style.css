@@ -123,3 +123,36 @@ header {
   align-items: center;
   padding: 2rem;
 }
+
+
+/* ---------- FEATURES ---------- */
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 18.75rem;
+  margin: 2rem auto 5rem auto;
+}
+
+.features-box {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.illusion {
+  content: '';
+  width: 9.37rem;
+  height: 9.37rem;
+  border: 3px solid var(--button-color);
+  border-radius: 10px;
+}
+
+.features-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.312rem;
+  width: 9.37rem;
+}
