@@ -5,7 +5,9 @@
   --font-h1: 3rem;
   --font-h2: 2.25rem;
   --font-h3: 2rem;
+  --font-h4: 1.5rem;
   --font-base: 1rem;
+  
 
   /* FONT FAMILY */
   --font-family: 'Roboto', sans-serif;
@@ -155,4 +157,31 @@ header {
   text-align: center;
   gap: 0.312rem;
   width: 9.37rem;
+}
+
+
+/* ---------- TESTIMONIALS ---------- */
+.testimonial {
+  background: var(--secondary-text-color);
+  color: var(--dark-bg);
+  padding: 5rem 0;
+}
+
+.testimonial > .container  {
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+}
+
+.testimonial > .container > :first-child {
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: var(--font-h3);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-light);
+}
+
+.testimonial > .container > :last-child {
+  text-align: right;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-h4);
 }
