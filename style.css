@@ -81,6 +81,11 @@ ul {list-style: none;}
   background: var(--button-color);
 }
 
+.btn-outline {
+  border: 2px solid var(--hero-text-color);
+  color: var(--hero-text-color);
+}
+
 /* -------------------- SECTIONS -------------------- */
 /* ---------- HEADER (HERO + NAVBAR) ---------- */
 header {
@@ -164,7 +169,8 @@ header {
 .testimonial {
   background: var(--secondary-text-color);
   color: var(--dark-bg);
-  padding: 5rem 0;
+  padding: 4rem 0;
+  margin-bottom: 2rem;
 }
 
 .testimonial > .container  {
@@ -184,4 +190,30 @@ header {
   text-align: right;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-h4);
+}
+
+
+/* ---------- CALL TO ACTION ---------- */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: var(--button-color);
+  color: var(--hero-text-color);
+  margin: 4rem auto 4rem auto;
+  border-radius: 10px;
+}
+
+.cta > :first-child {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 6.5rem;
+}
+
+.cta > :last-child {
+  flex: 1;
+  text-align: center;
 }
