@@ -19,7 +19,7 @@ The goal is to solidify my understanding of layout techniques, and CSS styling.
 _Add a screenshot here once the project is ready._  
 
 ## 🌐 Live Demo
-[View Live Page](#) <!-- Replace with your GitHub Pages link once deployed -->
+[View Live Page](https://chrono-quasardev.github.io/odin-landing-page/) <!-- Replace with your GitHub Pages link once deployed -->
 
 ## 📚 Acknowledgements
 - [The Odin Project](https://www.theodinproject.com/) for the curriculum and guidance.  
